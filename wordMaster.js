@@ -153,7 +153,6 @@ function markPositionsValidGuess(wordCharMap, wordChars, guessChars){
 }
 
 function winningState(){
-    console.log(3);
     alert ("You win!");
     done = true;
     document.querySelector('.brand').classList.add("winner");
